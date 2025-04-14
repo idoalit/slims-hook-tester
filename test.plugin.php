@@ -29,7 +29,7 @@ foreach ($config['hooks'] as $hook) {
     });
 }
 
-$plugin->registerMenu('circulation', 'Test Hook Log', __DIR__ . '/index.inc.php');
+$plugin->registerMenu('system', 'Test Hook Log', __DIR__ . '/index.inc.php');
 
 class Logger
 {
